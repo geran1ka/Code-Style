@@ -1,0 +1,118 @@
+body {
+  max-width: 900px;
+  min-width: 760px;
+  margin: auto;
+  border: 1px solid gray;
+
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #37352f;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 708px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 30px;
+  height: 100px;
+}
+
+.header__container {
+  margin-top: 30px;
+  height: 100px;
+  background-image: url("image/html_style.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__link {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 5px;
+  font-size: 26px;
+  color: red;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: black;
+  background-color: #a3a3a2;
+  border-radius: 10px;
+  opacity: .7;
+}
+
+.header__link:focus {
+  border: 2px solid black;
+}
+
+.link__list {
+  padding: 16px 16px 16px 50px;
+  background-color: #f1f1ef;
+}
+
+.link__item {
+  position: relative;
+  padding: 0;
+}
+
+.link__item-active::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -19px;
+  width: 19px;
+  height: 19px;
+  background-image: url("image/strelka.png");
+  background-size: 19px;
+  transform: scale(-1, 1);
+}
+
+.link__item a {
+  display: inline-block;
+  height: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(107, 107, 106, 0.808);
+}
+
+.link__item a:hover {
+  border-radius: 10px;
+  background-color: #a3a3a2;;
+}
+
+.specification {
+  padding-left: 10px;
+  border-left: 3px solid #37352f;
+}
+
+.img__encoding {
+  width: 544px;
+}
+
+.img__space {
+  width: 708px;
+}
+
+.img__style {
+  width: 657px;
+}
