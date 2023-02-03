@@ -2,8 +2,9 @@ body {
   max-width: 900px;
   min-width: 760px;
   margin: auto;
+  font-size: 18px;
+  line-height: 1.5;
   border: 1px solid gray;
-
 }
 
 ul, li {
@@ -12,23 +13,10 @@ ul, li {
   list-style: none;
 }
 
-a {
-  color: #37352f;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
-
 .container {
   width: 708px;
   margin: 0 auto;
+
 }
 
 .header {
@@ -42,6 +30,11 @@ img {
   background-image: url("image/html_style.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.link {
+  color: #37352f;
+  text-decoration: none;
 }
 
 .header__link {
@@ -87,7 +80,7 @@ img {
   transform: scale(-1, 1);
 }
 
-.link__item a {
+.link__item .link {
   display: inline-block;
   height: 20px;
   padding: 5px 10px;
@@ -95,7 +88,7 @@ img {
   border-bottom: 2px solid rgba(107, 107, 106, 0.808);
 }
 
-.link__item a:hover {
+.link__item .link:hover {
   border-radius: 10px;
   background-color: #a3a3a2;;
 }
@@ -103,6 +96,11 @@ img {
 .specification {
   padding-left: 10px;
   border-left: 3px solid #37352f;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
 }
 
 .img__encoding {
@@ -115,4 +113,8 @@ img {
 
 .img__style {
   width: 657px;
+}
+
+.link__validator {
+  border-bottom: 1px solid ;
 }
